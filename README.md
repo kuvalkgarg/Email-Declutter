@@ -8,22 +8,22 @@ The project is implemented in **Python**. It utilizes the following libraries:
 **email:** Used for parsing email content and working with email messages.
 
 # Installation and Execution
-Clone the repository to your local machine.
-Ensure you have Python installed (version 3.0 or above).
-Open a terminal or command prompt and navigate to the project directory.
-Install the required dependencies by running the following command:
+1. Clone the repository to your local machine.
+2. Ensure you have Python installed (version 3.0 or above).
+3. Open a terminal or command prompt and navigate to the project directory.
+4. Install the required dependencies by running the following command:
 ```
 pip install imaplib
 ```
-Open the script file (**email_declutter.py**) and update the following variables with your email account details:
+5. Open the script file (**email_declutter.py**) and update the following variables with your email account details:
 **imap_server:** The IMAP server address (e.g., 'imap.gmail.com').
 **imap_port:** The IMAP server port (e.g., 993).
 **email_address:** Your email address.
 **password:** Your email account password.
 **sender_email:** The email address of the sender whose emails you want to delete.
 **mailbox:** The mailbox/folder where you want to search and delete emails (e.g., 'INBOX', 'Spam').
-Save the changes to the script file.
-Run the Python script by executing the following command:
+6. Save the changes to the script file.
+7. Run the Python script by executing the following command:
 ```
 python email_declutter.py
 ```
