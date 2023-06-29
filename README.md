@@ -4,8 +4,8 @@ This project focuses on automating the cleanup of unwanted emails from a specifi
 # Languages and Frameworks/Libraries
 The project is implemented in **Python**. It utilizes the following libraries:
 
-* **imaplib:** Used for connecting to the IMAP server, performing email search, and managing emails.
-* **email:** Used for parsing email content and working with email messages.
+  * **imaplib:** Used for connecting to the IMAP server, performing email search, and managing emails.
+  * **email:** Used for parsing email content and working with email messages.
 
 # Installation and Execution
 1. Clone the repository to your local machine.
@@ -16,12 +16,12 @@ The project is implemented in **Python**. It utilizes the following libraries:
 pip install imaplib
 ```
 5. Open the script file (**email_declutter.py**) and update the following variables with your email account details:
-* **imap_server:** The IMAP server address (e.g., 'imap.gmail.com').
-* **imap_port:** The IMAP server port (e.g., 993).
-* **email_address:** Your email address.
-* **password:** Your email account password.
-* **sender_email:** The email address of the sender whose emails you want to delete.
-* **mailbox:** The mailbox/folder where you want to search and delete emails (e.g., 'INBOX', 'Spam').
+  * **imap_server:** The IMAP server address (e.g., 'imap.gmail.com').
+  * **imap_port:** The IMAP server port (e.g., 993).
+  * **email_address:** Your email address.
+  * **password:** Your email account password.
+  * **sender_email:** The email address of the sender whose emails you want to delete.
+  * **mailbox:** The mailbox/folder where you want to search and delete emails (e.g., 'INBOX', 'Spam').
 6. Save the changes to the script file.
 7. Run the Python script by executing the following command:
 ```
